@@ -12,40 +12,43 @@
   <body>
     <div class = "container">
         <div class = "calculator">
-            <div id = "display"></div>
+        <div id = "display">
+            <div id = "fullcalc"></div>
+            <div id = "currenttotal"></div>
+        </div>
             <div class = "cells">
               <div class = "rows" id ="row-1">
-                <div class = "cell button posneg" id = "pos-neg">+ / -</div>
-                <div class = "cell button operators" id= "pow">^</div>
-                <div class = "cell button" id="clear">Clear</div>
-                <div class = "cell button" id= "back">Back</div>
+                <div class = "cell button operator" id = "pos-neg">+ / -</div>
+                <div class = "cell button operator" id= "pow">^</div>
+                <div class = "cell button operator" id="clear">Clear</div>
+                <div class = "cell button operator" id="back">Back</div>
               </div>
               <div class="rows" id = "row-2">
                 <div class = "cell button number" id= "7">7</div>
                 <div class = "cell button number" id= "8">8</div>
                 <div class = "cell button number" id= "9">9</div>
-                <div class = "cell button number" id= "10">/</div>
+                <div class = "cell button operator" id="divide">÷</div>
               </div>
               <div class="rows" id ="row-3">
                 <div class = "cell button number" id= "4">4</div>
                 <div class = "cell button number" id= "5">5</div>
                 <div class = "cell button number" id= "6">6</div>
-                <div class = "cell button operators" id= "mult">*</div>
+                <div class = "cell button operator" id="mult">x</div>
               </div>
               <div class="rows" id ="row-4">
                 <div class = "cell button number" id= "3">3</div>
                 <div class = "cell button number" id= "2">2</div>
                 <div class = "cell button number" id= "1">1</div>
-                <div class = "cell button operators" id= "sub">-</div>
+                <div class = "cell button operator" id="sub">-</div>
               </div>
               <div class="rows" id ="row-5">
                 <div class = "cell button number" id= "0">0</div>
                 <div class = "cell button number" id= "dec">.</div>
-                <div class = "cell button operators" id= "perc">%</div>
-                <div class = "cell button operators" id= "add">+</div>
+                <div class = "cell button operator" id= "perc">%</div>
+                <div class = "cell button operator" id="add">+</div>
               </div>
             </div>
-            <div class = "button" id="enter">
+            <div class = "button operator" id= "enter">
                 Enter
             </div>
         </div>
